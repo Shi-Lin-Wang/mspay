@@ -1,0 +1,34 @@
+/*背景設定*/
+body{
+  background-image: url( "http://s3.amazonaws.com/caself/products/photos/000/000/861/original/egg_shell.png?1506350979" );
+  font-family:verdana,Microsoft JhengHei;
+}
+
+
+/*整體內縮變小的設定*/
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+
+/*為了放icon的設定*/
+.form-singin-input{
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  padding-left: 50px;
+}
+.form-div{
+    position: relative;
+    height: auto;
+    margin-top: 20px;
+}
+.material-icons{
+    position: absolute;
+    top: 9px;
+    left: 5px;
+    padding-left: 4px;
+}

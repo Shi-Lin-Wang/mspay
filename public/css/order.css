@@ -1,0 +1,16 @@
+﻿/*背景設定*/
+body,h1,h2,table{
+  /*background-image: url( "http://s3.amazonaws.com/caself/products/photos/000/001/226/original/abstract-paper-like-background-with-stains.jpg?1508123528" );*/
+  /*background-image: url( "http://s3.amazonaws.com/caself/products/photos/000/000/059/original/light_honeycomb.png?1504341204");*/
+  font-family:'微软雅黑';
+  background-image: url( "../imgs/b2.jpg");
+  
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+html {
+  height: 100%; }
+}

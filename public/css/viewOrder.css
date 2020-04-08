@@ -1,0 +1,32 @@
+/*model內部圖片的大小*/
+#modelImage{
+  width: 100%;
+  height :100%;
+}
+
+/*圓框 跟背景*/
+.mytable{
+
+  /*border-radius:10px !important;*/
+  border-top-left-radius:10px !important;
+  border-top-right-radius:10px !important;
+  background-color: #393939;
+}
+
+/*th 邊框改掉 字的顏色 背景 (必須和table一樣)*/
+.mytable th{
+    border-top-style: none !important;
+    border-radius:10px;
+    background-color: #393939;
+    color:	#00ad5f;
+}
+
+/*td字的顏色*/
+.mytable td{
+    color:white;
+}
+
+.mytable tr:hover{
+    background-color: #009FCC;
+
+}
